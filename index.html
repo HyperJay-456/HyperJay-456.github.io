@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jay Ram Thakur | Cybersecurity & SOC Analyst Portfolio</title>
+  <meta name="description" content="Portfolio of Jay Ram Thakur - Third-year Computer Engineering student specializing in Cybersecurity, SOC Operations, Defensive Security, SIEM/SOAR, VAPT, and Full-Stack Development.">
+  <meta name="keywords" content="Jay Ram Thakur, Cybersecurity, SOC Analyst, SIEM, Splunk, Elastic Stack, VAPT, Penetration Testing, TryHackMe, Network Security, Computer Engineering">
+  <meta name="author" content="Jay Ram Thakur">
+
+  <!-- Open Graph / Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jay Ram Thakur | Cybersecurity & SOC Analyst Portfolio">
+  <meta property="og:description" content="Cybersecurity Analyst, SOC Operations, Vulnerability Assessment, and Full-Stack Developer.">
+  <meta property="og:url" content="https://hyperjay-456.github.io/">
+  <link rel="canonical" href="https://hyperjay-456.github.io/">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2300ff9d'%3E%3Cpath d='M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z'/%3E%3C/svg%3E">
+
+  <!-- Fonts: Space Grotesk, JetBrains Mono, Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Dynamic Cyber Mesh Canvas Background -->
+  <canvas id="cyber-canvas"></canvas>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo" aria-label="Home">
+        <div class="nav-logo-icon">
+          <i class="fas fa-shield-halved"></i>
+        </div>
+        <span>JAY<span class="highlight">.THAKUR</span> // <span style="font-size:0.8rem; color:var(--text-muted)">SOC</span></span>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#interactive-tool" class="nav-link">Live Tool</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="terminal-trigger-btn open-terminal-btn" title="Open Interactive Cyber CLI Terminal">
+          <i class="fas fa-terminal"></i>
+          <span>CLI Terminal</span>
+        </button>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-status-pill">
+              <span class="status-dot"></span>
+              <span>Available for Cybersecurity & SOC Analyst Internships</span>
+            </div>
+
+            <h1 class="hero-title">
+              Hi, I'm <br><span class="name-highlight">Jay Ram Thakur</span>
+            </h1>
+
+            <div class="hero-subtitle">
+              <span>&gt;</span>
+              <span id="typewriter-text">SOC Operations & Incident Response</span>
+              <span class="typewriter-cursor">_</span>
+            </div>
+
+            <p class="hero-description">
+              Third-year Computer Engineering undergraduate at <strong>DBATU</strong> with hands-on expertise in defensive security, SOC telemetry, SIEM/SOAR systems, vulnerability assessments (VAPT), and secure web development. Passionate about safeguarding architectures and dissecting threats.
+            </p>
+
+            <div class="hero-ctas">
+              <a href="#projects" class="btn btn-primary">
+                <i class="fas fa-shield-virus"></i>
+                <span>Explore Projects</span>
+              </a>
+              <a href="#interactive-tool" class="btn btn-secondary">
+                <i class="fas fa-key"></i>
+                <span>Try Password Analyzer</span>
+              </a>
+              <button class="btn btn-secondary open-terminal-btn">
+                <i class="fas fa-terminal"></i>
+                <span>Launch CLI</span>
+              </button>
+            </div>
+
+            <div class="hero-socials">
+              <a href="https://github.com/HyperJay-456" target="_blank" rel="noopener noreferrer" class="social-pill" title="GitHub Profile">
+                <i class="fab fa-github"></i>
+                <span>HyperJay-456</span>
+              </a>
+              <a href="https://linkedin.com/in/jay-thakur-6589a0333" target="_blank" rel="noopener noreferrer" class="social-pill" title="LinkedIn Profile">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://tryhackme.com/p/jayt0667" target="_blank" rel="noopener noreferrer" class="social-pill" title="TryHackMe Profile">
+                <i class="fas fa-fire" style="color:#ea4335;"></i>
+                <span>TryHackMe</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Right HUD Telemetry Terminal -->
+          <div class="hero-hud-card">
+            <div class="hud-header">
+              <div class="hud-dots">
+                <span class="hud-dot red"></span>
+                <span class="hud-dot yellow"></span>
+                <span class="hud-dot green"></span>
+              </div>
+              <div class="hud-title">jay@soc-workstation: ~ (bash)</div>
+              <i class="fas fa-crosshairs" style="color:var(--accent-green); font-size: 0.85rem;"></i>
+            </div>
+            <div class="hud-body">
+              <div class="hud-line">
+                <span class="hud-prompt">sys-admin@threat-intel:~$</span> cat /etc/operator-profile
+              </div>
+              <div class="hud-line" style="color: #a5d6a7;">
+                [+] Candidate: Jay Ram Thakur<br>
+                [+] Target: SOC Analyst L1 / Cybersecurity Intern<br>
+                [+] Location: Panvel, Maharashtra, India<br>
+                [+] Core Focus: SIEM, VAPT, Defensive Ops, OWASP
+              </div>
+
+              <div class="hud-line" style="margin-top: 1rem;">
+                <span class="hud-prompt">sys-admin@threat-intel:~$</span> query-telemetry --status
+              </div>
+
+              <div class="hud-stat-grid">
+                <div class="hud-stat-box">
+                  <div class="hud-stat-label">TryHackMe Paths</div>
+                  <div class="hud-stat-val">5 Paths & Badges</div>
+                </div>
+                <div class="hud-stat-box">
+                  <div class="hud-stat-label">Security Tools</div>
+                  <div class="hud-stat-val">15+ Mastered</div>
+                </div>
+                <div class="hud-stat-box">
+                  <div class="hud-stat-label">Current CGPA</div>
+                  <div class="hud-stat-val">8.05 / 10</div>
+                </div>
+                <div class="hud-stat-box">
+                  <div class="hud-stat-label">Degree Expected</div>
+                  <div class="hud-stat-val">2028 (B.Tech)</div>
+                </div>
+              </div>
+
+              <div class="hud-line" style="margin-top: 1.25rem; font-size: 0.78rem; color: var(--accent-green);">
+                <i class="fas fa-check-double"></i> Defensive posture: ACTIVE | Ready for deployment
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- METRICS TELEMETRY STRIP -->
+    <section class="telemetry-strip" aria-label="Key Metrics">
+      <div class="container">
+        <div class="telemetry-grid">
+          <div class="telemetry-item">
+            <div class="telemetry-icon">
+              <i class="fas fa-award"></i>
+            </div>
+            <div>
+              <div class="telemetry-num" data-target="5">0</div>
+              <div class="telemetry-label">TryHackMe Paths & Certs</div>
+            </div>
+          </div>
+          <div class="telemetry-item">
+            <div class="telemetry-icon">
+              <i class="fas fa-toolbox"></i>
+            </div>
+            <div>
+              <div class="telemetry-num" data-target="15">0</div>
+              <div class="telemetry-label">Security & Dev Tools</div>
+            </div>
+          </div>
+          <div class="telemetry-item">
+            <div class="telemetry-icon">
+              <i class="fas fa-layer-group"></i>
+            </div>
+            <div>
+              <div class="telemetry-num" data-target="3">0</div>
+              <div class="telemetry-label">Major Core Projects</div>
+            </div>
+          </div>
+          <div class="telemetry-item">
+            <div class="telemetry-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div>
+              <div class="telemetry-num" data-target="8.05">0</div>
+              <div class="telemetry-label">First Year CGPA (DBATU)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">Mission & Background</div>
+          <h2 class="section-title">Professional Summary</h2>
+          <p class="section-desc">Bridging computer engineering fundamentals with practical threat detection, defensive operations, and security tooling.</p>
+        </div>
+
+        <div style="max-width: 900px; margin: 0 auto; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 16px; padding: 2.5rem; backdrop-filter: blur(12px); box-shadow: 0 15px 40px rgba(0,0,0,0.5);">
+          <div style="display: flex; gap: 1.5rem; align-items: flex-start; margin-bottom: 1.5rem;">
+            <div style="width: 50px; height: 50px; border-radius: 12px; background: rgba(0, 255, 157, 0.1); border: 1px solid var(--accent-green); display: flex; align-items: center; justify-content: center; font-size: 1.4rem; color: var(--accent-green); flex-shrink: 0;">
+              <i class="fas fa-user-shield"></i>
+            </div>
+            <div>
+              <h3 style="font-size: 1.4rem; margin-bottom: 0.5rem;">Third-Year Computer Engineering Undergraduate</h3>
+              <p style="color: var(--accent-cyan); font-family: var(--font-mono); font-size: 0.9rem;">
+                Aspiring Cybersecurity Specialist // SOC Analyst // Security Operations
+              </p>
+            </div>
+          </div>
+
+          <p style="font-size: 1.05rem; line-height: 1.8; margin-bottom: 1.5rem; color: #cbd5e1;">
+            Third-year Computer Engineering student pursuing a cybersecurity career with hands-on experience in <strong>Linux, Windows, computer networks, web application security, defensive security, vulnerability assessment, and security labs</strong>. 
+          </p>
+          <p style="font-size: 1.05rem; line-height: 1.8; margin-bottom: 2rem; color: #cbd5e1;">
+            Familiar with <strong>SOC fundamentals, SIEM, SOAR, Elastic Stack, Splunk, Windows Event Logs, threat hunting, basic incident response, and VAPT</strong>. Practical experience with industry tools such as <strong>Nmap, Wireshark, Burp Suite, Metasploit, SQLMap, Hydra, Gobuster, John the Ripper</strong>, and other security tools. Seeking a Cybersecurity, SOC Analyst, Security Operations, or Cybersecurity Engineering internship.
+          </p>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; border-top: 1px solid var(--border-subtle); padding-top: 1.5rem;">
+            <div>
+              <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Location</div>
+              <div style="font-weight: 600; color: var(--text-primary);"><i class="fas fa-location-dot" style="color:var(--accent-red); margin-right: 0.35rem;"></i> Panvel, Maharashtra, India</div>
+            </div>
+            <div>
+              <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Degree</div>
+              <div style="font-weight: 600; color: var(--text-primary);"><i class="fas fa-university" style="color:var(--accent-cyan); margin-right: 0.35rem;"></i> B.Tech Computer Eng. (2028)</div>
+            </div>
+            <div>
+              <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Primary Focus</div>
+              <div style="font-weight: 600; color: var(--text-primary);"><i class="fas fa-shield" style="color:var(--accent-green); margin-right: 0.35rem;"></i> SOC & Defensive Security</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNICAL ARSENAL (SKILLS) -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">Skill Matrix</div>
+          <h2 class="section-title">Technical Arsenal</h2>
+          <p class="section-desc">Comprehensive toolkit across defensive cyber operations, offensive security testing, systems administration, and software development.</p>
+        </div>
+
+        <div class="skills-nav-tabs">
+          <button class="skill-tab-btn active" data-filter="all">All Disciplines</button>
+          <button class="skill-tab-btn" data-filter="cyber">Defensive & SOC</button>
+          <button class="skill-tab-btn" data-filter="tools">Security Tools</button>
+          <button class="skill-tab-btn" data-filter="network">Networking & OS</button>
+          <button class="skill-tab-btn" data-filter="dev">Programming & Dev</button>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Cyber Card 1 -->
+          <div class="skill-card" data-category="cyber">
+            <div class="skill-card-top">
+              <div class="skill-icon"><i class="fas fa-shield-virus"></i></div>
+              <div>
+                <h3 class="skill-title">SOC & SIEM Operations</h3>
+                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-green);">Defensive Ops</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">SOC Operations</span>
+              <span class="skill-tag">SIEM</span>
+              <span class="skill-tag">SOAR</span>
+              <span class="skill-tag">Elastic Stack</span>
+              <span class="skill-tag">Splunk (Basic)</span>
+              <span class="skill-tag">Windows Event Logs</span>
+            </div>
+          </div>
+
+          <!-- Cyber Card 2 -->
+          <div class="skill-card" data-category="cyber">
+            <div class="skill-card-top">
+              <div class="skill-icon"><i class="fas fa-crosshairs"></i></div>
+              <div>
+                <h3 class="skill-title">Threat Hunting & VAPT</h3>
+                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-cyan);">Assessment & IR</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Threat Detection</span>
+              <span class="skill-tag">Threat Hunting</span>
+              <span class="skill-tag">Incident Response (Basic)</span>
+              <span class="skill-tag">Vulnerability Assessment</span>
+              <span class="skill-tag">VAPT</span>
+              <span class="skill-tag">OWASP Top 10</span>
+            </div>
+          </div>
+
+          <!-- Cyber Card 3 -->
+          <div class="skill-card" data-category="cyber">
+            <div class="skill-card-top">
+              <div class="skill-icon"><i class="fas fa-key"></i></div>
+              <div>
+                <h3 class="skill-title">Security Governance & Identity</h3>
+                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-purple);">Identity & Crypto</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Active Directory</span>
+              <span class="skill-tag">Authentication & AuthZ</span>
+              <span class="skill-tag">Cryptography Fundamentals</span>
+              <span class="skill-tag">Password Security</span>
+              <span class="skill-tag">Digital Forensics</span>
+            </div>
+          </div>
+
+          <!-- Tools Card 1 -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-card-top">
+              <div class="skill-icon"><i class="fas fa-globe"></i></div>
+              <div>
+                <h3 class="skill-title">Network & Web Assessment</h3>
+                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-green);">Recon & Auditing</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Nmap</span>
+              <span class="skill-tag">Wireshark</span>
+              <span class="skill-tag">Burp Suite</span>
+              <span class="skill-tag">Gobuster</span>
+              <span class="skill-tag">SQLMap</span>
+              <span class="skill-tag">Tcpdump</span>
+            </div>
+          </div>
+
+          <!-- Tools Card 2 -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-card-top">
+              <div class="skill-icon"><i class="fas fa-bug"></i></div>
+              <div>
+                <h3 class="skill-title">Penetration & Forensics Tools</h3>
+                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-red);">Exploit & Analysis</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Metasploit Framework</span>
+              <span class="skill-tag">Hydra</span>
+              <span class="skill-tag">John the Ripper</span>
+              <span class="skill-tag">CyberChef</span>
+              <span class="skill-tag">Volatility</span>
+              <span class="skill-tag">CAPA</span>
+              <span class="skill-tag">PEStudio</span>
+              <span class="skill-tag">CFF Explorer</span>
+              <span class="skill-tag">Process Monitor</span>
+              <span class="skill-tag">Process Explorer</span>
+              <span class="skill-tag">INetSim</span>
+            </div>
+          </div>
+
+          <!-- Networking & OS -->
+          <div class="skill-card" data-category="network">
+            <div class="skill-card-top">
+              <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+              <div>
+                <h3 class="skill-title">Networking & Protocols</h3>
+                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-cyan);">Architecture</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">TCP/IP</span>
+              <span class="skill-tag">OSI Model</span>
+              <span class="skill-tag">DNS & DHCP</span>
+              <span class="skill-tag">HTTP / HTTPS</span>
+              <span class="skill-tag">FTP & SSH</span>
+              <span class="skill-tag">Network Security</span>
+            </div>
+          </div>
+
+          <div class="skill-card" data-category="network">
+            <div class="skill-card-top">
+              <div class="skill-icon"><i class="fab fa-linux"></i></div>
+              <div>
+                <h3 class="skill-title">Operating Systems</h3>
+                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-amber);">Environments</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Linux (Debian/Ubuntu/Kali)</span>
+              <span class="skill-tag">Windows / Windows Server</span>
+              <span class="skill-tag">Bash Scripting</span>
+              <span class="skill-tag">Command Line Automation</span>
+            </div>
+          </div>
+
+          <!-- Development -->
+          <div class="skill-card" data-category="dev">
+            <div class="skill-card-top">
+              <div class="skill-icon"><i class="fas fa-code"></i></div>
+              <div>
+                <h3 class="skill-title">Programming & Full-Stack</h3>
+                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-green);">Engineering</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">C</span>
+              <span class="skill-tag">Python (Basic)</span>
+              <span class="skill-tag">JavaScript (ES6+)</span>
+              <span class="skill-tag">React.js</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Express.js</span>
+              <span class="skill-tag">MongoDB</span>
+              <span class="skill-tag">HTML5 / CSS3</span>
+              <span class="skill-tag">Git / GitHub</span>
+              <span class="skill-tag">Visual Studio Code</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIVE DEMO TOOL (Password Analyzer & Generator) -->
+    <section class="section" id="interactive-tool" style="background: rgba(12, 16, 28, 0.4);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">Live Interactive Showcase</div>
+          <h2 class="section-title">Password Security Utility</h2>
+          <p class="section-desc">A live browser implementation of my featured cybersecurity project. Calculate Shannon entropy, test OWASP criteria, and generate cryptographically secure tokens.</p>
+        </div>
+
+        <div class="demo-tool-card">
+          <div class="demo-layout">
+            <!-- Left: Analyzer -->
+            <div>
+              <div class="tool-panel-title">
+                <i class="fas fa-magnifying-glass-chart"></i>
+                <span>Password Strength & Entropy Analyzer</span>
+              </div>
+
+              <div class="tool-input-group">
+                <input type="password" id="analyzer-input" class="tool-input" placeholder="Type or paste password to evaluate...">
+                <button type="button" id="toggle-pwd-visibility" class="input-toggle-btn" title="Toggle Visibility">
+                  <i class="fas fa-eye"></i>
+                </button>
+              </div>
+
+              <div class="meter-bar-container">
+                <div id="meter-fill" class="meter-fill"></div>
+              </div>
+
+              <div class="meter-meta">
+                <span id="strength-text" style="font-weight:600; color:var(--text-muted)">Strength: Enter password</span>
+                <span class="entropy-badge">Entropy: <strong id="entropy-text">0 bits</strong></span>
+              </div>
+
+              <div style="background: rgba(10, 14, 24, 0.6); padding: 0.85rem; border-radius: 8px; border: 1px solid var(--border-subtle); margin-bottom: 1.25rem; font-family: var(--font-mono); font-size: 0.85rem; display: flex; justify-content: space-between;">
+                <span style="color:var(--text-muted);">Est. Offline Cracking Time:</span>
+                <span id="crack-time-text" style="color:var(--accent-cyan); font-weight:700;">—</span>
+              </div>
+
+              <ul class="security-checks-list">
+                <li class="check-item" id="check-length">
+                  <i class="far fa-circle check-icon"></i>
+                  <span>Minimum 12 characters (Recommended for entropy)</span>
+                </li>
+                <li class="check-item" id="check-upper">
+                  <i class="far fa-circle check-icon"></i>
+                  <span>Contains uppercase letter (A-Z)</span>
+                </li>
+                <li class="check-item" id="check-lower">
+                  <i class="far fa-circle check-icon"></i>
+                  <span>Contains lowercase letter (a-z)</span>
+                </li>
+                <li class="check-item" id="check-number">
+                  <i class="far fa-circle check-icon"></i>
+                  <span>Contains numeric digit (0-9)</span>
+                </li>
+                <li class="check-item" id="check-special">
+                  <i class="far fa-circle check-icon"></i>
+                  <span>Contains special symbol (!@#$%^&*)</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Right: Generator -->
+            <div>
+              <div class="tool-panel-title">
+                <i class="fas fa-shield-halved"></i>
+                <span>Cryptographic Password Generator</span>
+              </div>
+
+              <div class="generator-box">
+                <div class="slider-group">
+                  <div class="slider-header">
+                    <span>Password Length:</span>
+                    <span id="gen-length-val" style="color:var(--accent-green); font-weight:700;">16</span>
+                  </div>
+                  <input type="range" id="gen-length-slider" class="custom-range" min="8" max="32" value="16">
+                </div>
+
+                <div class="checkbox-options">
+                  <label class="custom-checkbox">
+                    <input type="checkbox" id="inc-upper" checked> Uppercase (A-Z)
+                  </label>
+                  <label class="custom-checkbox">
+                    <input type="checkbox" id="inc-lower" checked> Lowercase (a-z)
+                  </label>
+                  <label class="custom-checkbox">
+                    <input type="checkbox" id="inc-numbers" checked> Numbers (0-9)
+                  </label>
+                  <label class="custom-checkbox">
+                    <input type="checkbox" id="inc-symbols" checked> Special Symbols
+                  </label>
+                </div>
+
+                <div class="generated-display">
+                  <span id="generated-pwd-text">Click generate</span>
+                  <button id="copy-generated-btn" class="copy-btn" title="Copy to clipboard">
+                    <i class="fas fa-copy"></i>
+                  </button>
+                </div>
+
+                <div style="display: flex; gap: 0.75rem;">
+                  <button id="generate-pwd-btn" class="btn btn-primary btn-sm" style="flex: 1;">
+                    <i class="fas fa-arrows-rotate"></i>
+                    <span>Generate New</span>
+                  </button>
+                  <button id="load-to-analyzer-btn" class="btn btn-secondary btn-sm" title="Evaluate this generated password in analyzer">
+                    <i class="fas fa-flask"></i>
+                    <span>Analyze</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS & TRYHACKME SECTION -->
+    <section class="section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">Verified Credentials</div>
+          <h2 class="section-title">Certifications & Training</h2>
+          <p class="section-desc">Practical security pathways and hands-on laboratory exercises completed on TryHackMe.</p>
+        </div>
+
+        <div class="cert-grid">
+          <!-- Cert 1 -->
+          <div class="cert-card">
+            <div>
+              <div class="cert-top">
+                <span class="cert-badge-type completed">Completed</span>
+                <i class="fas fa-shield-cat cert-icon"></i>
+              </div>
+              <h3 class="cert-title">Pre Security Learning Path</h3>
+              <div class="cert-issuer">TryHackMe • Completed</div>
+              <p style="font-size:0.9rem; color:var(--text-secondary);">
+                Foundations of cybersecurity, networking fundamentals, web applications, and essential security concepts.
+              </p>
+            </div>
+            <a href="https://tryhackme.com/p/jayt0667" target="_blank" rel="noopener noreferrer" class="cert-footer-link">
+              <span>View on TryHackMe</span>
+              <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+
+          <!-- Cert 2 -->
+          <div class="cert-card">
+            <div>
+              <div class="cert-top">
+                <span class="cert-badge-type completed">Completed</span>
+                <i class="fas fa-user-lock cert-icon"></i>
+              </div>
+              <h3 class="cert-title">Cyber Security 101 Learning Path</h3>
+              <div class="cert-issuer">TryHackMe • Completed</div>
+              <p style="font-size:0.9rem; color:var(--text-secondary);">
+                Core defensive and offensive security principles, threat analysis, cryptography basics, and endpoint security.
+              </p>
+            </div>
+            <a href="https://tryhackme.com/p/jayt0667" target="_blank" rel="noopener noreferrer" class="cert-footer-link">
+              <span>View on TryHackMe</span>
+              <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+
+          <!-- Cert 3 -->
+          <div class="cert-card">
+            <div>
+              <div class="cert-top">
+                <span class="cert-badge-type completed">Certificate</span>
+                <i class="fas fa-holly-berry cert-icon"></i>
+              </div>
+              <h3 class="cert-title">Hacker Holidays Event</h3>
+              <div class="cert-issuer">TryHackMe • Event Certificate</div>
+              <p style="font-size:0.9rem; color:var(--text-secondary);">
+                Hands-on cybersecurity challenges covering incident response, log analysis, digital forensics, and exploitation.
+              </p>
+            </div>
+            <a href="https://tryhackme.com/p/jayt0667" target="_blank" rel="noopener noreferrer" class="cert-footer-link">
+              <span>View on TryHackMe</span>
+              <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+
+          <!-- Cert 4 -->
+          <div class="cert-card">
+            <div>
+              <div class="cert-top">
+                <span class="cert-badge-type in-progress">In Progress</span>
+                <i class="fas fa-desktop cert-icon" style="color:var(--accent-amber);"></i>
+              </div>
+              <h3 class="cert-title">SOC L1 Analyst Learning Path</h3>
+              <div class="cert-issuer">TryHackMe • Advanced Training</div>
+              <p style="font-size:0.9rem; color:var(--text-secondary);">
+                Deep dive into SIEM architecture, Splunk, Elastic, Snort, Zeek, Phishing analysis, memory forensics, and Cyber Kill Chain.
+              </p>
+              <div class="cert-progress-wrapper">
+                <div style="display:flex; justify-content:space-between; font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-amber);">
+                  <span>Progress Track</span>
+                  <span>Active</span>
+                </div>
+                <div class="cert-progress-bar">
+                  <div class="cert-progress-fill" style="width: 65%;"></div>
+                </div>
+              </div>
+            </div>
+            <a href="https://tryhackme.com/p/jayt0667" target="_blank" rel="noopener noreferrer" class="cert-footer-link">
+              <span>Inspect THM Profile</span>
+              <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+
+          <!-- Cert 5 -->
+          <div class="cert-card">
+            <div>
+              <div class="cert-top">
+                <span class="cert-badge-type in-progress">In Progress</span>
+                <i class="fas fa-user-ninja cert-icon" style="color:var(--accent-amber);"></i>
+              </div>
+              <h3 class="cert-title">Jr Penetration Tester Learning Path</h3>
+              <div class="cert-issuer">TryHackMe • Offensive Track</div>
+              <p style="font-size:0.9rem; color:var(--text-secondary);">
+                Methodologies for network auditing, web app vulnerabilities, privilege escalation, and exploitation techniques.
+              </p>
+              <div class="cert-progress-wrapper">
+                <div style="display:flex; justify-content:space-between; font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-amber);">
+                  <span>Progress Track</span>
+                  <span>Active</span>
+                </div>
+                <div class="cert-progress-bar">
+                  <div class="cert-progress-fill" style="width: 55%;"></div>
+                </div>
+              </div>
+            </div>
+            <a href="https://tryhackme.com/p/jayt0667" target="_blank" rel="noopener noreferrer" class="cert-footer-link">
+              <span>Inspect THM Profile</span>
+              <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">Engineering & Security</div>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-desc">Practical systems engineered for cybersecurity evaluation, full-stack REST architectures, and web applications.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div>
+              <div class="project-header">
+                <span class="project-category-tag">Cybersecurity Utility</span>
+                <div class="project-links">
+                  <a href="#interactive-tool" class="project-link-icon" title="Test Live Interactive Tool in Page">
+                    <i class="fas fa-play"></i>
+                  </a>
+                  <a href="https://github.com/HyperJay-456/HyperJay-456.github.io" target="_blank" rel="noopener noreferrer" class="project-link-icon" title="View Source on GitHub">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+
+              <h3 class="project-title">Password Analyzer & Generator</h3>
+              <p class="project-desc">
+                Developed a cybersecurity-focused password utility for analyzing password strength and generating cryptographic passwords. Applied password-security concepts to evaluate characteristics such as length, complexity, and character pool composition.
+              </p>
+
+              <ul class="project-features">
+                <li class="project-feature-item">
+                  <i class="fas fa-chevron-right"></i>
+                  <span>Shannon Entropy computation for mathematical password strength.</span>
+                </li>
+                <li class="project-feature-item">
+                  <i class="fas fa-chevron-right"></i>
+                  <span>Real-time offline brute-force cracking resistance calculation.</span>
+                </li>
+                <li class="project-feature-item">
+                  <i class="fas fa-chevron-right"></i>
+                  <span>Cryptographically secure pseudo-random number generator (CSPRNG).</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="tech-badge">Cybersecurity</span>
+              <span class="tech-badge">Shannon Entropy</span>
+              <span class="tech-badge">JavaScript</span>
+              <span class="tech-badge">Web Crypto API</span>
+              <span class="tech-badge">OWASP Standard</span>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div>
+              <div class="project-header">
+                <span class="project-category-tag">Web Development</span>
+                <div class="project-links">
+                  <a href="https://github.com/HyperJay-456/BinaryNbeyond" target="_blank" rel="noopener noreferrer" class="project-link-icon" title="View Source on GitHub">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+
+              <h3 class="project-title">Binary & Beyond Website</h3>
+              <p class="project-desc">
+                Collaborated on a responsive website using HTML, CSS, and JavaScript; contributed to multiple webpages, interactive features, responsive layouts, and user experience improvements.
+              </p>
+
+              <ul class="project-features">
+                <li class="project-feature-item">
+                  <i class="fas fa-chevron-right"></i>
+                  <span>Cross-browser compatible semantic layouts and responsive navigation.</span>
+                </li>
+                <li class="project-feature-item">
+                  <i class="fas fa-chevron-right"></i>
+                  <span>Dynamic clientside DOM interactions and lightweight micro-animations.</span>
+                </li>
+                <li class="project-feature-item">
+                  <i class="fas fa-chevron-right"></i>
+                  <span>Collaborative Git version control and team code reviews.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="tech-badge">HTML5</span>
+              <span class="tech-badge">CSS3</span>
+              <span class="tech-badge">JavaScript</span>
+              <span class="tech-badge">Responsive UI</span>
+              <span class="tech-badge">Git</span>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div>
+              <div class="project-header">
+                <span class="project-category-tag">MERN Stack Backend</span>
+                <div class="project-links">
+                  <a href="https://github.com/HyperJay-456/ExpenseTracker" target="_blank" rel="noopener noreferrer" class="project-link-icon" title="View Source on GitHub">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+
+              <h3 class="project-title">Expense Tracker - MERN Stack</h3>
+              <p class="project-desc">
+                Developed the backend using Node.js, Express.js, and MongoDB; built RESTful APIs, implemented CRUD operations, and managed database integration for user transactions and financial records.
+              </p>
+
+              <ul class="project-features">
+                <li class="project-feature-item">
+                  <i class="fas fa-chevron-right"></i>
+                  <span>Secure REST API architecture with payload validation and error handling.</span>
+                </li>
+                <li class="project-feature-item">
+                  <i class="fas fa-chevron-right"></i>
+                  <span>MongoDB schema design for fast transaction queries and categorization.</span>
+                </li>
+                <li class="project-feature-item">
+                  <i class="fas fa-chevron-right"></i>
+                  <span>Stateful balance calculations and robust CRUD endpoints.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="tech-badge">Node.js</span>
+              <span class="tech-badge">Express.js</span>
+              <span class="tech-badge">MongoDB</span>
+              <span class="tech-badge">REST APIs</span>
+              <span class="tech-badge">Backend Security</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION & COURSEWORK SECTION -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">Academic Foundation</div>
+          <h2 class="section-title">Education & Coursework</h2>
+          <p class="section-desc">Solid engineering core with consistent high academic performance and specialized theoretical coursework.</p>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h3 class="timeline-title">B.Tech. – Computer Engineering</h3>
+                <span class="timeline-period">Expected 2028</span>
+              </div>
+              <div class="timeline-institution">
+                Dr. Babasaheb Ambedkar Technological University (DBATU)
+              </div>
+              <div class="timeline-grades">
+                <span>First Year CGPA: <strong>8.05</strong></span>
+                <span>•</span>
+                <span>Third Semester CGPA: <strong>7.75</strong></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h3 class="timeline-title">HSC (Higher Secondary Certificate)</h3>
+                <span class="timeline-period">Completed</span>
+              </div>
+              <div class="timeline-institution">
+                Changu Kana Thakur (CKT) Junior College
+              </div>
+              <div class="timeline-grades">
+                <span>Score: <strong>80.50%</strong></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h3 class="timeline-title">SSC (Secondary School Certificate)</h3>
+                <span class="timeline-period">Completed</span>
+              </div>
+              <div class="timeline-institution">
+                Shri Bapusaheb D. D. Vispute English Medium School
+              </div>
+              <div class="timeline-grades">
+                <span>Score: <strong>74.40%</strong></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coursework box -->
+        <div class="coursework-box">
+          <h3><i class="fas fa-book-bookmark" style="margin-right: 0.5rem;"></i> Relevant Academic Coursework</h3>
+          <div class="coursework-tags">
+            <span class="course-tag">Computer Networks</span>
+            <span class="course-tag">Operating Systems</span>
+            <span class="course-tag">Database Management Systems (DBMS)</span>
+            <span class="course-tag">Data Structures & Algorithms</span>
+            <span class="course-tag">Object-Oriented Programming (OOP)</span>
+            <span class="course-tag">Computer Organization & Architecture</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">Secure Channel</div>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-desc">Open to cybersecurity internships, SOC analyst positions, collaborative security research, and engineering opportunities.</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <!-- Left info -->
+          <div class="contact-info-panel">
+            <h3>Let's Connect & Secure</h3>
+            <p>
+              I am actively seeking an internship or junior role in <strong>Cybersecurity, SOC Analysis, Security Operations, or Defensive Engineering</strong>. Feel free to reach out directly via email, phone, or LinkedIn.
+            </p>
+
+            <div class="contact-cards-list">
+              <div class="contact-card-item">
+                <div class="contact-icon-box"><i class="fas fa-envelope"></i></div>
+                <div>
+                  <div class="contact-detail-label">Email Address</div>
+                  <div class="contact-detail-val">
+                    <a href="mailto:jayt0667@gmail.com" style="color:var(--accent-green);">jayt0667@gmail.com</a>
+                  </div>
+                </div>
+                <button class="copy-btn copy-trigger" data-copy="jayt0667@gmail.com" title="Copy Email" style="margin-left:auto;">
+                  <i class="fas fa-copy"></i>
+                </button>
+              </div>
+
+              <div class="contact-card-item">
+                <div class="contact-icon-box"><i class="fas fa-phone"></i></div>
+                <div>
+                  <div class="contact-detail-label">Phone</div>
+                  <div class="contact-detail-val">
+                    <a href="tel:+918928453810" style="color:var(--accent-cyan);">+91 8928453810</a>
+                  </div>
+                </div>
+                <button class="copy-btn copy-trigger" data-copy="+918928453810" title="Copy Phone Number" style="margin-left:auto;">
+                  <i class="fas fa-copy"></i>
+                </button>
+              </div>
+
+              <div class="contact-card-item">
+                <div class="contact-icon-box"><i class="fas fa-location-dot"></i></div>
+                <div>
+                  <div class="contact-detail-label">Location</div>
+                  <div class="contact-detail-val">Panvel, Maharashtra, India</div>
+                </div>
+              </div>
+
+              <div class="contact-card-item">
+                <div class="contact-icon-box"><i class="fab fa-linkedin-in"></i></div>
+                <div>
+                  <div class="contact-detail-label">Professional Network</div>
+                  <div class="contact-detail-val">
+                    <a href="https://linkedin.com/in/jay-thakur-6589a0333" target="_blank" rel="noopener noreferrer" style="color:var(--accent-cyan);">
+                      linkedin.com/in/jay-thakur-6589a0333
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right form -->
+          <div>
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Full Name *</label>
+                <input type="text" id="contact-name" class="form-input" placeholder="e.g. Alex Mercer" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Email Address *</label>
+                <input type="email" id="contact-email" class="form-input" placeholder="e.g. alex@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Subject</label>
+                <input type="text" id="contact-subject" class="form-input" placeholder="e.g. Cybersecurity Internship Opportunity">
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message *</label>
+                <textarea id="contact-message" class="form-textarea" placeholder="Write your message or inquiry..." required></textarea>
+              </div>
+
+              <div id="form-status" style="font-family:var(--font-mono); font-size:0.85rem; min-height:1.2rem;"></div>
+
+              <button type="submit" class="btn btn-primary" style="align-self: flex-start;">
+                <i class="fas fa-paper-plane"></i>
+                <span>Transmit Message</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- INTERACTIVE CYBER TERMINAL MODAL -->
+  <div id="terminal-modal" class="terminal-modal-overlay" aria-hidden="true" role="dialog">
+    <div class="terminal-window">
+      <div class="terminal-topbar">
+        <div class="terminal-controls">
+          <button id="close-terminal-btn" class="terminal-control-btn term-close" title="Close"></button>
+          <button class="terminal-control-btn term-min" title="Minimize"></button>
+          <button class="terminal-control-btn term-max" title="Maximize"></button>
+        </div>
+        <div style="font-family:var(--font-mono); font-size:0.8rem; color:var(--text-muted);">
+          guest@jay-soc-terminal: ~ (sh)
+        </div>
+        <div style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-green);">
+          ● ONLINE
+        </div>
+      </div>
+      <div id="terminal-screen" class="terminal-screen">
+        <!-- Terminal commands and history rendered by terminal.js -->
+      </div>
+      <div style="padding: 0.75rem 1.25rem; background: #0b0f19; border-top: 1px solid var(--border-subtle);">
+        <div class="terminal-input-row">
+          <span class="terminal-prompt-sym">guest@jaythakur:~$</span>
+          <input type="text" id="terminal-cli-input" class="terminal-cli-input" autocomplete="off" spellcheck="false" placeholder="Type a command (e.g. 'help', 'whoami', 'skills', 'tools')...">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span style="color:var(--accent-green); font-weight:700;">[JT]</span> Jay Ram Thakur • Cybersecurity & SOC Analyst
+      </div>
+      <ul class="footer-links">
+        <li><a href="https://github.com/HyperJay-456" target="_blank" rel="noopener noreferrer" class="footer-link"><i class="fab fa-github"></i> GitHub</a></li>
+        <li><a href="https://linkedin.com/in/jay-thakur-6589a0333" target="_blank" rel="noopener noreferrer" class="footer-link"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+        <li><a href="https://tryhackme.com/p/jayt0667" target="_blank" rel="noopener noreferrer" class="footer-link"><i class="fas fa-fire"></i> TryHackMe</a></li>
+        <li><a href="mailto:jayt0667@gmail.com" class="footer-link"><i class="fas fa-envelope"></i> Email</a></li>
+      </ul>
+      <div style="font-family:var(--font-mono); font-size:0.8rem;">
+        &copy; <span id="current-year">2026</span> Jay Ram Thakur. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/particles.js"></script>
+  <script src="js/password-tool.js"></script>
+  <script src="js/terminal.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
