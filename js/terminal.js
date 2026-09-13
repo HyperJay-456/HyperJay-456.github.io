@@ -124,8 +124,8 @@ Profile: <a href="https://tryhackme.com/p/jayt0667" target="_blank" style="color
 [FEATURED PROJECTS]
 1. Password Analyzer & Generator
    - Security utility calculating Shannon entropy & OWASP complexity rules.
-2. Binary & Beyond Website
-   - Interactive responsive multi-page web platform.
+2. Binary & Beyond — Digital Logic Engine
+   - Interactive visual computing platform with step-by-step radix & arithmetic traces.
 3. Expense Tracker (MERN Stack)
    - Secure RESTful APIs, CRUD operations, transaction schemas, MongoDB.
 `,
