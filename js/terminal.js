@@ -145,7 +145,7 @@ Profile: <a href="https://tryhackme.com/p/jayt0667" target="_blank" style="color
 • GitHub   : <a href="https://github.com/HyperJay-456" target="_blank" style="color:var(--accent-cyan)">github.com/HyperJay-456</a>
 • THM      : <a href="https://tryhackme.com/p/jayt0667" target="_blank" style="color:var(--accent-cyan)">tryhackme.com/p/jayt0667</a>
 `,
-    banner: () => `<pre style="color:var(--accent-green); font-size:0.75rem;">${BANNER}</pre>`,
+    banner: () => `<pre class="term-banner-pre">${BANNER}</pre>`,
     clear: () => {
       terminalScreen.innerHTML = '';
       return '';
@@ -157,7 +157,7 @@ Profile: <a href="https://tryhackme.com/p/jayt0667" target="_blank" style="color
   };
 
   // Initial welcome message in terminal
-  terminalScreen.innerHTML = `<pre style="color:var(--accent-green); font-size:0.75rem;">${BANNER}</pre>`;
+  terminalScreen.innerHTML = `<pre class="term-banner-pre">${BANNER}</pre>`;
 
   terminalInput.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') {
